@@ -15,26 +15,6 @@ Machine learning algorithms like Support vector machines (SVMs), Naïve Bayes, l
 
 The rest of the report is structured as follows: Background reviews of some related work, the objectives i.e. what is to be achieved is listed in this section. The methodology, i.e. the approach, data collection, pre-processing and modelling follows after, the experiment, results and finally the conclusion(s) arrived at is detailed in the last section.
 
-# Background
-As we proceed, we also recognise they similar work has been done on Twitter sentiment analysis and this can act as a guide to what we are trying to achieve, most using different algorithms to determine which is the best while others support the use of social media to get sentiments of people:
-
-According to the survey by Sprout Social, 70% of consumers have used social media to air grievances about a company or brand. This agrees with our decision to select Twitter as a medium to collect the data and shows that it is the right place to go when such data is needed as social media continues to generate a large volume of sentiment-rich data.
-
-The study by Cheng et al. (2021) conducted a survey of sentiment analysis methods and techniques for Twitter data and discussed several approaches and concluded that deep learning methods, such as Convolutional Neural Networks (CNN) and Recurrent Neural Networks (RNN), have shown promising results in sentiment analysis of Twitter data. We are building on this study to know if Convolutional Neural Networks (CNN) or Recurrent Neural Networks (RNN) is best when analysing sentiments on Twitter, other models will also be used to make this comparison.
-
-Chakraborty et al. (2021) reviewed the recent advances in social media sentiment analysis using deep learning techniques. The authors present a comprehensive review of the state-of-the-art models, techniques, and challenges of deep learning-based sentiment analysis on social media data. They also discuss future research directions in this field.
-
-Alamri et al. (2021) proposes the use of a deep neural network model for the sentiment analysis of Arabic tweets. A novel approach combined with both semantic and syntactic features was used in the analysis and this model achieved a high accuracy. 
-
-Ahmad et al. (2020) did a comparative analysis between traditional machine learning algorithms and deep learning techniques on Twitter dataset and evaluated their performance and came to the conclusion that deep learning based models outperformed the traditional machine learning models.
-
-Zhang et al. (2021) proposes an enhanced convolutional neural network (CNN) and long short-term memory (LSTM) network for tweet emotion recognition, which utilizes data augmentation techniques to improve the model's performance. Experiments were conducted on a large-scale dataset and achieved a high accuracy rate of 85.32%, outperforming several state-of-the-art methods. The importance of data augmentation in improving the accuracy of sentiment analysis on social media data with complex and diverse emotions was displayed.
-
-Ahmad et al. (2021) presents a sentiment analysis approach for Twitter data using deep learning techniques such as convolutional neural network (CNN) and long short-term memory (LSTM) network. The authors evaluated their approach on a large dataset of tweets and achieved an accuracy rate of 86.56%, outperforming several existing methods. The study emphasizes the significance of utilizing deep learning techniques for sentiment analysis on social media data, which is inherently noisy and contains diverse emotions.
-
-Cui et al. (2020) proposes a hybrid deep learning model for sentiment analysis on social media. The authors combine a convolutional neural network (CNN) and a long short-term memory (LSTM) network to capture both local and global features of text data. The proposed model achieved high accuracy in sentiment analysis on social media. 
-
-Alghamdi et al. (2021) proposes an ensemble of CNN and LSTM networks for sentiment analysis on social media. The authors combine the outputs of both networks to improve the accuracy of sentiment classification. The proposed model achieved higher accuracy than individual CNN and LSTM networks.
 
 # Objective
 
